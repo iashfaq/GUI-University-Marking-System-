@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="439.0" minWidth="900.0" prefHeight="726.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Pane fx:id="lvl4Pane" layoutX="14.0" layoutY="21.0" prefHeight="428.0" prefWidth="300.0">
+         <children>
+            <Button fx:id="lvl4Ent" layoutX="130.0" layoutY="355.0" mnemonicParsing="false" onAction="#Enter" prefHeight="35.0" prefWidth="97.0" text="Enter">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font></Button>
+            <Label layoutX="102.0" layoutY="23.0" text="Level 04">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl" layoutY="79.0" text="Module 01" />
+            <TextField fx:id="lvl4Mod1Ict1" layoutX="75.0" layoutY="75.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl4Mod1Ict2" layoutX="125.0" layoutY="75.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT02" />
+            <TextField fx:id="lvl4Mod1Ict3" layoutX="184.0" layoutY="75.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT03" />
+            <Label layoutX="255.0" layoutY="50.0" text="Credits ">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl4Mod1Stat" layoutX="249.0" layoutY="79.0" prefHeight="17.0" prefWidth="39.0" text=" " textFill="#f80000" />
+            <Label layoutY="117.0" text="Module 02" />
+            <TextField fx:id="lvl4Mod2Ict1" layoutX="75.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl4Mod2Ict2" layoutX="125.0" layoutY="113.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT02" />
+            <TextField fx:id="lvl4Mod2Ict3" layoutX="184.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT03" />
+            <Label fx:id="lvl4Mod2Stat" layoutX="249.0" layoutY="117.0" prefHeight="17.0" prefWidth="39.0" text=" " textFill="#f80000" />
+            <Label layoutX="106.0" layoutY="303.0" prefHeight="17.0" prefWidth="133.0" text="Total Credits for Level 4&gt;">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblLvl4TotCred" layoutX="255.0" layoutY="298.0" prefHeight="27.0" prefWidth="39.0" textFill="#ee0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutY="158.0" text="Module 03" />
+            <TextField fx:id="lvl4Mod3Ict1" layoutX="75.0" layoutY="154.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl4Mod3Ict2" layoutX="125.0" layoutY="154.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT02" />
+            <TextField fx:id="lvl4Mod3Ict3" layoutX="184.0" layoutY="154.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT03" />
+            <Label fx:id="lvl4Mod3Stat" layoutX="249.0" layoutY="154.0" prefHeight="17.0" prefWidth="39.0" text=" " textFill="#f80000" />
+            <Label layoutY="197.0" text="Module 04" />
+            <TextField fx:id="lvl4Mod4Ict1" layoutX="75.0" layoutY="193.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl4Mod4Ict2" layoutX="125.0" layoutY="193.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT02" />
+            <TextField fx:id="lvl4Mod4Ict3" layoutX="184.0" layoutY="193.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT03" />
+            <Label fx:id="lvl4Mod4Stat" layoutX="249.0" layoutY="193.0" prefHeight="17.0" prefWidth="39.0" text=" " textFill="#f80000" />
+            <Label layoutY="233.0" text="Module 05" />
+            <TextField fx:id="lvl4Mod5Ict1" layoutX="75.0" layoutY="229.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl4Mod5Ict2" layoutX="125.0" layoutY="229.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT02" />
+            <TextField fx:id="lvl4Mod5Ict3" layoutX="184.0" layoutY="229.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT03" />
+            <Label fx:id="lvl4Mod5Stat" layoutX="249.0" layoutY="229.0" prefHeight="17.0" prefWidth="39.0" text=" " textFill="#f80000" />
+            <Label layoutY="275.0" text="Module 06" />
+            <TextField fx:id="lvl4Mod6Ict1" layoutX="75.0" layoutY="271.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl4Mod6Ict2" layoutX="125.0" layoutY="271.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT02" />
+            <TextField fx:id="lvl4Mod6Ict3" layoutX="184.0" layoutY="271.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT03" />
+            <Label fx:id="lvl4Mod6Stat" layoutX="249.0" layoutY="271.0" prefHeight="17.0" prefWidth="39.0" text=" " textFill="#f80000" />
+            <Button layoutX="9.0" layoutY="355.0" mnemonicParsing="false" onAction="#Clear" prefHeight="35.0" prefWidth="117.0" text="Clear">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="lvl4Mod1Retake" layoutX="61.0" layoutY="79.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="232.0" layoutY="79.0" prefHeight="17.0" prefWidth="14.0" />
+            <Label fx:id="lvl4Mod2Retake" layoutX="62.0" layoutY="117.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="229.0" layoutY="117.0" prefHeight="17.0" prefWidth="14.0" />
+            <Label fx:id="lvl4Mod3Retake" layoutX="62.0" layoutY="158.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="233.0" layoutY="158.0" prefHeight="17.0" prefWidth="14.0" />
+            <Label fx:id="lvl4Mod4Retake" layoutX="62.0" layoutY="197.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="233.0" layoutY="197.0" prefHeight="17.0" prefWidth="14.0" />
+            <Label fx:id="lvl4Mod5Retake" layoutX="62.0" layoutY="233.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="233.0" layoutY="233.0" prefHeight="17.0" prefWidth="14.0" />
+            <Label fx:id="lvl4Mod6Retake" layoutX="62.0" layoutY="275.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="233.0" layoutY="275.0" prefHeight="17.0" prefWidth="14.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="lvl5Pane" layoutX="314.0" layoutY="14.0" prefHeight="428.0" prefWidth="300.0">
+         <children>
+            <Button fx:id="lvl5Ent" layoutX="118.0" layoutY="362.0" mnemonicParsing="false" onAction="#EnterLvl5" prefHeight="35.0" prefWidth="125.0" text="Enter">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="102.0" layoutY="23.0" text="Level 05">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="79.0" text="Module 01" />
+            <TextField fx:id="lvl5Mod1Ict1" layoutX="86.0" layoutY="75.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl5Mod1Ict2" layoutX="138.0" layoutY="75.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl5Mod1Ict3" layoutX="190.0" layoutY="75.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label layoutX="255.0" layoutY="50.0" text="Credits ">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl5Mod1Stat" layoutX="262.0" layoutY="79.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="117.0" text="Module 02" />
+            <TextField fx:id="lvl5Mod2Ict1" layoutX="86.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl5Mod2Ict2" layoutX="138.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl5Mod2Ict3" layoutX="190.0" layoutY="113.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl5Mod2Stat" layoutX="262.0" layoutY="117.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="107.0" layoutY="303.0" prefHeight="17.0" prefWidth="133.0" text="Total Credits for Level 5&gt;">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblLvl5TotCred" layoutX="255.0" layoutY="298.0" prefHeight="27.0" prefWidth="39.0" textFill="#ee0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="154.0" text="Module 03" />
+            <TextField fx:id="lvl5Mod3Ict1" layoutX="86.0" layoutY="150.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl5Mod3Ict2" layoutX="138.0" layoutY="150.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl5Mod3Ict3" layoutX="190.0" layoutY="150.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl5Mod3Stat" layoutX="262.0" layoutY="154.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="193.0" text="Module 04" />
+            <TextField fx:id="lvl5Mod4Ict1" layoutX="86.0" layoutY="189.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl5Mod4Ict2" layoutX="138.0" layoutY="189.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl5Mod4Ict3" layoutX="190.0" layoutY="189.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl5Mod4Stat" layoutX="262.0" layoutY="193.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="229.0" text="Module 05" />
+            <TextField fx:id="lvl5Mod5Ict1" layoutX="86.0" layoutY="225.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl5Mod5Ict2" layoutX="138.0" layoutY="225.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl5Mod5Ict3" layoutX="190.0" layoutY="225.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl5Mod5Stat" layoutX="262.0" layoutY="229.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="271.0" text="Module 06" />
+            <TextField fx:id="lvl5Mod6Ict1" layoutX="86.0" layoutY="267.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl5Mod6Ict2" layoutX="138.0" layoutY="267.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl5Mod6Ict3" layoutX="190.0" layoutY="267.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl5Mod6Stat" layoutX="262.0" layoutY="271.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Button layoutX="9.0" layoutY="362.0" mnemonicParsing="false" onAction="#ClearLvl5" prefHeight="35.0" prefWidth="105.0" text="Clear">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="lvl5Mod1Retake" layoutX="67.0" layoutY="79.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl5Mod2Retake" layoutX="67.0" layoutY="117.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl5Mod3Retake" layoutX="67.0" layoutY="155.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl5Mod4Retake" layoutX="67.0" layoutY="194.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl5Mod5Retake" layoutX="67.0" layoutY="230.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl5Mod6Retake" layoutX="67.0" layoutY="272.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="lvl6Pane" layoutX="614.0" layoutY="14.0" prefHeight="428.0" prefWidth="300.0">
+         <children>
+            <Button fx:id="lvl6Ent" layoutX="141.0" layoutY="361.0" mnemonicParsing="false" onAction="#EnterLvl6" prefHeight="35.0" prefWidth="105.0" text="Enter">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="102.0" layoutY="23.0" text="Level 06">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="79.0" text="Module 01" />
+            <TextField fx:id="lvl6Mod1Ict1" layoutX="86.0" layoutY="75.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl6Mod1Ict2" layoutX="138.0" layoutY="75.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl6Mod1Ict3" layoutX="190.0" layoutY="75.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label layoutX="255.0" layoutY="50.0" text="Credits ">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl6Mod1Stat" layoutX="262.0" layoutY="79.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="117.0" text="Module 02" />
+            <TextField fx:id="lvl6Mod2Ict1" layoutX="86.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl6Mod2Ict2" layoutX="138.0" layoutY="113.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl6Mod2Ict3" layoutX="190.0" layoutY="113.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl6Mod2Stat" layoutX="262.0" layoutY="117.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="107.0" layoutY="303.0" prefHeight="17.0" prefWidth="133.0" text="Total Credits for Level 6&gt;">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblLvl6TotCred" layoutX="255.0" layoutY="298.0" prefHeight="27.0" prefWidth="39.0" textFill="#ee0000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="154.0" text="Module 03" />
+            <TextField fx:id="lvl6Mod3Ict1" layoutX="86.0" layoutY="150.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl6Mod3Ict2" layoutX="138.0" layoutY="150.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl6Mod3Ict3" layoutX="190.0" layoutY="150.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl6Mod3Stat" layoutX="262.0" layoutY="154.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="193.0" text="Module 04" />
+            <TextField fx:id="lvl6Mod4Ict1" layoutX="86.0" layoutY="189.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl6Mod4Ict2" layoutX="138.0" layoutY="189.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl6Mod4Ict3" layoutX="190.0" layoutY="189.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl6Mod4Stat" layoutX="262.0" layoutY="193.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="229.0" text="Module 05" />
+            <TextField fx:id="lvl6Mod5Ict1" layoutX="86.0" layoutY="225.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl6Mod5Ict2" layoutX="138.0" layoutY="225.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl6Mod5Ict3" layoutX="190.0" layoutY="225.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl6Mod5Stat" layoutX="262.0" layoutY="229.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Label layoutX="9.0" layoutY="271.0" text="Module 06" />
+            <TextField fx:id="lvl6Mod6Ict1" layoutX="86.0" layoutY="267.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT01" />
+            <TextField fx:id="lvl6Mod6Ict2" layoutX="138.0" layoutY="267.0" prefHeight="25.0" prefWidth="43.0" promptText="ICT02" />
+            <TextField fx:id="lvl6Mod6Ict3" layoutX="190.0" layoutY="267.0" prefHeight="25.0" prefWidth="50.0" promptText="ICT03" />
+            <Label fx:id="lvl6Mod6Stat" layoutX="262.0" layoutY="271.0" prefHeight="17.0" prefWidth="26.0" text=" " textFill="#f80000" />
+            <Button layoutX="12.0" layoutY="361.0" mnemonicParsing="false" onAction="#ClearLvl6" prefHeight="35.0" prefWidth="125.0" text="Clear">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="lvl6Mod1Retake" layoutX="65.0" layoutY="79.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl6Mod2Retake" layoutX="65.0" layoutY="117.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl6Mod3Retake" layoutX="65.0" layoutY="155.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl6Mod4Retake" layoutX="65.0" layoutY="194.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl6Mod5Retake" layoutX="65.0" layoutY="230.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvl6Mod6Retake" layoutX="65.0" layoutY="272.0" prefHeight="17.0" prefWidth="14.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="14.0" layoutY="420.0" prefHeight="289.0" prefWidth="269.0">
+         <children>
+            <Button fx:id="CondoneEnter" layoutX="146.0" layoutY="226.0" mnemonicParsing="false" onAction="#CondoneEnter" prefHeight="35.0" prefWidth="78.0" text="Enter ">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="16.0" text="Condoned Credits (Level 04)">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="cbMod1" layoutX="27.0" layoutY="50.0" mnemonicParsing="false" text="Module 01" />
+            <CheckBox fx:id="cbMod2" layoutX="27.0" layoutY="89.0" mnemonicParsing="false" text="Module 02" />
+            <CheckBox fx:id="cbMod3" layoutX="27.0" layoutY="124.0" mnemonicParsing="false" text="Module 03" />
+            <CheckBox fx:id="cbMod4" layoutX="27.0" layoutY="163.0" mnemonicParsing="false" text="Module 04" />
+            <CheckBox fx:id="cbMod5" layoutX="27.0" layoutY="203.0" mnemonicParsing="false" text="Module 05" />
+            <CheckBox fx:id="cbMod6" layoutX="27.0" layoutY="240.0" mnemonicParsing="false" text="Module 06" />
+            <Label fx:id="condoneStat" layoutX="7.0" layoutY="25.0" prefHeight="25.0" prefWidth="246.0" textAlignment="CENTER" textFill="#f80000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="condoneStat" layoutX="-4.0" layoutY="24.0" prefHeight="27.0" prefWidth="278.0" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Pane layoutX="283.0" layoutY="421.0" prefHeight="273.0" prefWidth="608.0">
+         <children>
+            <Label layoutX="216.0" layoutY="14.0" text="FINAL RESULT" textFill="#f59300">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="56.0" text="Qualification - ">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="qualStat" layoutX="206.0" layoutY="56.0" prefHeight="25.0" prefWidth="335.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="99.0" text="Class Type - ">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="finalEnter" layoutX="338.0" layoutY="218.0" mnemonicParsing="false" onAction="#finalEnter" prefHeight="35.0" prefWidth="105.0" text="Calculate" textFill="RED">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="allClear" layoutX="216.0" layoutY="218.0" mnemonicParsing="false" onAction="#finalClear" prefHeight="35.0" prefWidth="105.0" text="Clear All" textFill="RED">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="classStat" layoutX="209.0" layoutY="99.0" prefHeight="25.0" prefWidth="335.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
